@@ -1,0 +1,78 @@
+img 
+{
+        border: 1px solid rgb(240, 66, 66);  
+}
+h1 
+{
+    background-color: black;
+}
+h1,h2 
+{
+    color: rgb(184, 179, 179);
+    width: 200px;
+}
+
+.s h2
+{   
+    border: 2px solid green; 
+    width:100px;
+    padding:0 5px;
+}
+#mon > span
+{
+    color: pink;
+}
+#mon > div
+{
+    border: 2px solid rgb(255, 0, 0); 
+    width:100px;
+    padding:5px;
+}
+#mon > div > span 
+{
+    width:100px;
+    background-color: yellow;
+}
+#wed h2:hover
+{
+    color: green;
+}
+#tue h2:hover ,#mon h2:hover
+{
+    color: rgb(218, 43, 37);
+}
+
+/*h1,h2
+{
+    color: unset;
+    color: pink;
+}
+*/
+li:first-of-type 
+{
+    font-weight: bold;
+}
+li:nth-of-type(2) 
+{
+    font-weight: bold;
+    color: red;
+}
+li:nth-of-type(9) 
+{
+    font-weight: bold;
+    color: blue;
+}
+li:nth-of-type(5n+3) 
+{
+    font-weight: bold;
+    color: green;
+}
+#tue span:nth-of-type(1) 
+{
+    color: blue;
+}
+#tue span:nth-of-type(2) 
+{
+    font-size: 200%;
+}
+
