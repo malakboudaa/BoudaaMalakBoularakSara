@@ -42,12 +42,12 @@ h1,h2
     color: rgb(218, 43, 37);
 }
 
-/*h1,h2
+h1,h2
 {
     color: unset;
     color: pink;
 }
-*/
+
 li:first-of-type 
 {
     font-weight: bold;
